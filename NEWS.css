@@ -113,7 +113,7 @@ p {
 .clothing{
 	width:270px;
 	height:270px;
-	background: url("Clothing News.jpg");
+	background: url("clothingnews.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 
@@ -121,7 +121,7 @@ p {
 }
 
 .clothing:hover {
-	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("Clothing news.jpg");
+	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("clothingnews.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -160,13 +160,13 @@ p {
 .Aitana{
 	width:270px;
 	height:270px;
-	background: url("Aitana news.jpg");
+	background: url("aitananews.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 .Aitana:hover {
-	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("Aitana news.jpg");
+	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("aitananews.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
