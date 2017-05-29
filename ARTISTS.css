@@ -1,0 +1,165 @@
+body{
+width: 1024px;
+height: 500px;
+font-family: "Gill Sans MT";
+margin:auto;
+}
+
+header{
+	width: 1000px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.navigatielinks {
+border-bottom: 2px solid black;
+padding: 5px;
+width: 400px;
+float: left;
+margin-top:50px;
+display: inline-block;
+}
+
+.navigatierechts {
+	border-bottom: 2px solid black;
+	padding:5px;
+	width: 400px;
+	float: left;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+a {
+	font-size: 20px;
+	word-spacing: 100px;
+	text-decoration: none;
+	color: black;
+}
+
+nav{
+	color: #fecc01;
+}
+
+.geel:hover{
+	color: #fecc01;
+}
+
+.groen:hover{
+	color: #589D98;
+}
+
+.roze:hover{
+	color: #D9939D;
+}
+
+.paars:hover{
+	color: #8C6BA0;
+}
+
+.logo {
+	float:left;
+}
+
+h1 {
+	font-size: 21px;
+	text-align: center;
+}
+#leto:hover{
+	border: 5px solid #D9939D;
+}
+
+.leto{
+	height: 290px;
+	width: 200px;
+	text-align: center;
+	float: left;
+}
+
+#gidgets:hover{
+	border: 5px solid #fecc01;
+}
+
+.gidgets{
+	height: 290px;
+	width: 200px;
+	text-align: center;
+	float:left;
+	margin-top: 10%;
+	margin-left: 3%;
+}
+
+#nila:hover{
+	border: 5px solid #8C6BA0;
+}
+
+.nila{
+	height: 290px;
+	width: 200px;
+	text-align: center;
+	float: left;
+	margin-top: 10%;
+	margin-left: 3%;
+}
+#aitana, #leto, #gidgets, #nila {
+	border: 5px solid white;
+}
+#aitana:hover{
+	border: 5px solid #589D98;
+}
+.aitana{
+	height: 290px;
+	width: 200px;
+	text-align: center;
+	float: left;
+	margin-left: 3%;
+}
+
+main{
+	width: 1000px;
+	height: 400px;
+	display: inline-block;
+	margin: auto 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+footer {
+	width: 1024px;
+	height: 40px;
+	background-color: black;
+	margin:auto;
+	display: inline-block;
+
+}
+
+#sm {
+	word-spacing: normal;
+}
+
+.social {
+	float: right;
+	width: 200px;
+	margin: -2% 80%;
+	padding-top: -180px;
+	display: inline-block;
+}
+
+p {
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
+
+@media (max-width:800px){
+	.navigatielinks {width:150px;
+		margin-left: 25px;
+					}
+	.navigatierechts{width:150px;}
+	footer {width:550px;}
+	main {width:600px;
+	height: 700px;}
+	.gidgets {margin-left:35px;}
+	.social {margin:-4%}
+}

@@ -1,0 +1,262 @@
+body{
+width: 1024px;
+height: 500px;
+font-family: "Gill Sans MT";
+margin:auto;
+}
+
+header{
+	width: 1000px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.navigatielinks {
+border-bottom: 2px solid black;
+padding: 5px;
+width: 400px;
+float: left;
+margin-top:50px;
+display: inline-block;
+}
+
+.navigatierechts {
+	border-bottom: 2px solid black;
+	padding:5px;
+	width: 400px;
+	float: left;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+a {
+	font-size: 20px;
+	word-spacing: 100px;
+	text-decoration: none;
+	color: black;
+}
+
+.geel:hover{
+	color: #fecc01;
+}
+
+.groen:hover{
+	color: #589D98;
+}
+
+.roze:hover{
+	color: #D9939D;
+}
+
+.paars:hover{
+	color: #8C6BA0;
+}
+.logo {
+	float:left;
+}
+
+main{
+	margin:auto;
+	width: 1100px;
+	display: inline-block;
+}
+
+footer {
+	width: 1024px;
+	height: 40px;
+	background-color: black;
+	margin:auto;
+	display: inline-block;
+
+}
+
+.sm {
+	word-spacing: normal;
+}
+
+.social {
+	float: right;
+	width: 200px;
+	margin: -2% 80%;
+	padding-top: -180px;
+	display: inline-block;
+}
+
+p {
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.news {
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 75%;
+}
+
+.Nila{
+	width:540px;
+	height:270px;
+	background: url("Tour Nila Jane News.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Nila:hover {
+	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("Tour Nila Jane news.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.clothing{
+	width:270px;
+	height:270px;
+	background: url("Clothing News.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+
+
+}
+
+.clothing:hover {
+	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("Clothing news.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.labelnight{
+	width:270px;
+	height:270px;
+	background: url("Labelnight news.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float:left;
+	display: inline-block;
+
+}
+
+.labelnight:hover {
+	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("Labelnight news.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Gidgets{
+	width:270px;
+	height:270px;
+	background: url("gidgets_news.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Gidgets:hover {
+	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("gidgets_news.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Aitana{
+	width:270px;
+	height:270px;
+	background: url("Aitana news.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Aitana:hover {
+	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("Aitana news.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Baby{
+	width:817px;
+	height:270px;
+	background: url("Baby News Leto.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Baby:hover {
+	background: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("Baby News Leto.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.textHover {
+  display:none;
+  width:100%;
+  height:150px;
+	position: absolute;
+	top: 25%;
+	vertical-align: middle;
+	text-align:center;
+	color:black;
+	font-family: "Gill sans MT";
+	font-size: 20px;
+	line-height: 25px;
+	margin-left: 5px;
+	margin-right:5px;
+	z-index: 3;
+}
+
+.Nila, .clothing, .labelnight, .Gidgets, .Aitana, .Baby{
+  position:relative;
+	float:left;
+	}
+
+.Nila:hover .textHover {
+	display:block;
+	color: black;
+
+	}
+
+.clothing:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.labelnight:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.Gidgets:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.Aitana:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.Baby:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.clear{
+	clear: both;
+}
+
+@media (max-width:800px){
+	.navigatielinks {width:150px;
+		margin-left: 25px;
+					}
+	.navigatierechts{width:150px;}
+	footer {width:550px;}
+	main {width:600px;
+	height: 1200px;
+margin-left:-400px;}
+	.social {margin:-4%}
+	.Nila:hover .textHover {margin-top: -80px;
+}
+.Baby:hover .textHover{margin-top:-60px;
+width:500px;}
+.labelnight {float:left; margin-top:-273px;
+	margin-left:270px;}
+.Aitana {float:left; margin-top:-273px;
+	margin-left:270px;}

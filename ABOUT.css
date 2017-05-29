@@ -1,0 +1,134 @@
+body{
+width: 1024px;
+height: 500px;
+font-family: "Gill Sans MT";
+margin:auto;
+}
+
+header{
+	width: 1000px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.navigatielinks {
+border-bottom: 2px solid black;
+padding: 5px;
+width: 400px;
+float: left;
+margin-top:50px;
+display: inline-block;
+}
+
+.navigatierechts {
+	border-bottom: 2px solid black;
+	padding:5px;
+	width: 400px;
+	float: left;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+nav,a {
+	font-size: 20px;
+	word-spacing: 100px;
+	text-decoration: none;
+	color: black;
+}
+.geel:hover{
+	color: #fecc01;
+}
+
+.groen:hover{
+	color: #589D98;
+}
+
+.roze:hover{
+	color: #D9939D;
+}
+
+.paars:hover{
+	color: #8C6BA0;
+}
+
+.logo {
+	float:left;
+}
+
+main{
+	margin:auto;
+	width: 1000px;
+	display: inline-block;
+}
+
+footer {
+	width: 1024px;
+	height: 40px;
+	background-color: black;
+	margin:auto;
+	display: inline-block;
+
+}
+
+.sm {
+	word-spacing: normal;
+}
+
+.social {
+	float: right;
+	width: 200px;
+	margin: -2% 80%;
+	padding-top: -180px;
+	display: inline-block;
+}
+
+p {
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.kaderabout {
+	background-image: url("kader about.jpg");
+	background-size: cover;
+	width: 900px;
+	height: 300px;
+	color: white;
+	display: inline-block;
+	margin: auto 5%;
+}
+
+.about {
+	color: white;
+	font-size: 18px;
+	width: 600px;
+	margin-left: 150px;
+	margin-top: 50px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+.ogen {
+	display: inline-block;
+	margin: 5%;
+	margin-top: 2%;
+}
+
+@media (max-width:800px){
+	.navigatielinks {width:150px;
+		margin-left: 25px;
+					}
+	.navigatierechts{width:150px;}
+	.kaderabout { width:450px;
+								height: 500px;
+							background-image: url("about2.jpg");
+						background-size:auto;;}
+	.about {width: 300px;
+					margin-left: 75px;}
+	.ogen {width:450px;
+				height:100px;}
+	footer {width:550px;}
+	.social {margin: -3%}
+}

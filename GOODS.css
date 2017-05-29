@@ -1,0 +1,176 @@
+body{
+width: 1024px;
+height: 500px;
+font-family: "Gill Sans MT";
+margin:auto;
+}
+
+header{
+	width: 1000px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.navigatielinks {
+border-bottom: 2px solid black;
+padding: 5px;
+width: 400px;
+float: left;
+margin-top:50px;
+display: inline-block;
+}
+
+.navigatierechts {
+	border-bottom: 2px solid black;
+	padding:5px;
+	width: 400px;
+	float: left;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+a {
+	font-size: 20px;
+	word-spacing: 100px;
+	text-decoration: none;
+	color: black;
+}
+
+.geel:hover{
+	color: #fecc01;
+}
+
+.groen:hover{
+	color: #589D98;
+}
+
+.roze:hover{
+	color: #D9939D;
+}
+
+.paars:hover{
+	color: #8C6BA0;
+}
+
+
+.logo {
+	float:left;
+}
+
+main{
+	margin:auto;
+	width: 1000px;
+	display: inline-block;
+}
+
+footer {
+	width: 1024px;
+	height: 40px;
+	background-color: black;
+	margin:auto;
+	display: inline-block;
+
+}
+
+#sm {
+	word-spacing: normal;
+}
+
+.social {
+	float: right;
+	width: 200px;
+	margin: -2% 80%;
+	padding-top: -180px;
+	display: inline-block;
+}
+
+p {
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.good1, .good2, .good3, .good4, .good5, .good6, .good7, .good8{
+float: left;
+margin: 2%;
+margin-bottom:10%;
+border: 3px solid white;
+}
+
+
+.good1:hover, .good2:hover, .good3:hover, .good4:hover, .good5:hover, .good6:hover, .good7:hover, .good8:hover {
+	-webkit-opacity:0.2;
+	border: 3px solid #fecc01;
+	}
+
+.textHover {
+  display:none;
+  width:100%;
+  height:100%;
+	position:absolute;
+	top:40%; left:0;
+	text-align:center;
+	color:white;
+	font-family: "Gill sans MT";
+	font-size: 20px;
+
+}
+
+.good1, .good2, .good3, .good4, .good5, .good6, .good7, .good8 {
+  position:relative;
+  display:table;
+}
+
+.good1:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.good2:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.good3:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.good4:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.good5:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.good6:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.good7:hover .textHover {
+	display:block;
+	color: black;
+}
+
+.good8:hover .textHover {
+	display:block;
+	color: black;
+}
+
+@media (max-width:800px){
+	.navigatielinks {width:150px;
+		margin-left: 25px;
+					}
+	.navigatierechts{width:150px;}
+	footer {width:550px;}
+	main {width:600px;
+	height: 1200px;
+margin-left:-300px;}
+	.social {margin:-4%}
+}
